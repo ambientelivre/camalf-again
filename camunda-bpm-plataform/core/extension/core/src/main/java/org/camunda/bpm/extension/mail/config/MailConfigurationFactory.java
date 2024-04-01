@@ -14,7 +14,7 @@ package org.camunda.bpm.extension.mail.config;
 
 import java.time.Duration;
 import java.util.Properties;
-import org.camunda.bpm.extension.mail.AbstractFactory;
+import org.camunda.bpm.extension.alfresco.AbstractFactory;
 
 public class MailConfigurationFactory extends AbstractFactory<MailConfiguration> {
   public static final String PROPERTY_POLL_FOLDER = "mail.poll.folder";
